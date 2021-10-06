@@ -1,0 +1,15 @@
+<%-include("header"); -%>
+
+<form action="/home" method="post">
+    <div class="break">
+        <img src="<%=foodImg%>" alt="food image">
+    </div>
+    <div class="rightFloat">
+        <h1 class="bigFont break">Designed and build by</h1>
+        <a href="https://github.com/keshavcodex" target="_blank">keshavcodex</a>
+        <input type="text" name="foodName" placeholder="now which food?" autocomplete="off">
+        <button type="submit" >Submit</button>
+    </div>
+</form>
+
+<%-include("footer"); -%>
