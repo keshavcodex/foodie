@@ -1,37 +1,44 @@
 <%-include("header"); -%>
 
-<body style="overflow: hidden;">
-    <div class="container">
-        <form action="/home" method="post">
-            <div class="break">
-                <span class="main-text">Today i would like to have</span>
-                <input type="text" name="foodName" placeholder="Most beautiful food?" autocomplete="off">
-                <button type="submit" >Submit</button>
-            </div>
-        </form>
-    </div>
-    
-    <div class="area" >
-        <ul class="circles">
-            <li></li>
-            <li></li>
-            <li></li>
-            <li></li>
-            <li></li>
-            <li></li>
-            <li></li>
-            <li></li>
-            <li></li>
-            <li></li>
-            <li></li>
-            <li></li>
-            <li></li>
-            <li></li>
-            <li></li>
-            <li></li>
-            <li></li>
-            <li></li>
-            <li></li>
-            <li></li>
-        </ul>
-<%-include("footer"); -%>
+<body style="overflow: hidden">
+  <div class="container">
+    <form action="/home" method="post">
+      <div class="break">
+        <span class="main-text">Today i would like to have</span>
+        <input
+          type="text"
+          name="foodName"
+          placeholder="Enter food name"
+          autocomplete="off"
+        />
+        <button type="submit">Submit</button>
+      </div>
+    </form>
+  </div>
+
+  <div class="area">
+    <ul class="circles">
+      <li></li>
+      <li></li>
+      <li></li>
+      <li></li>
+      <li></li>
+      <li></li>
+      <li></li>
+      <li></li>
+      <li></li>
+      <li></li>
+      <li></li>
+      <li></li>
+      <li></li>
+      <li></li>
+      <li></li>
+      <li></li>
+      <li></li>
+      <li></li>
+      <li></li>
+      <li></li>
+    </ul>
+    <%-include("footer"); -%>
+  </div>
+</body>
